@@ -7,8 +7,6 @@
 <script>
 export default {
   name: "PageIndex",
-  created() {
-    console.log(this.$store.state);
-  }
+  created() {}
 };
 </script>

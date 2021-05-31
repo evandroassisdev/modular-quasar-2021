@@ -1,17 +1,16 @@
-import store from '../store'
+import store from "../store";
 
 export default (to, from, next) => {
-  var auth = false
-  console.log(store().state.storeDefault.storeMBR.isAuth)
+  var auth = store().state.storeDefault.storeMBR.isAuth;
   if (to.matched.some(record => record.meta.auth)) {
     if (!auth) {
-      next('/login')
+      next("/login");
     } else {
-      next()
+      next();
     }
   } else if (!auth) {
-    next()
+    next();
   } else {
-    next('/')
+    next("/");
   }
-}
+};

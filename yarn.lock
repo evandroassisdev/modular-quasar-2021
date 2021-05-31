@@ -1578,10 +1578,10 @@ acorn@^8.0.4:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.2.4.tgz#caba24b08185c3b56e3168e97d15ed17f4d31fd0"
   integrity sha512-Ibt84YwBDDA890eDiDCEqcbwvHlBvzzDkU2cGBBDDI1QWT12jTiXIOn2CIw5KK4i6N5Z2HUxwYjzriDyqaqqZg==
 
-admin.mbr.components@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/admin.mbr.components/-/admin.mbr.components-0.0.15.tgz#084fce1f114e44024f2bb25caedbae96394830f2"
-  integrity sha512-osJXXTNIRG8aQbRW9dIfeQFQeX3OukKSKTqOqVgVkQHFocwE7aYNgeagg17Z8Up9I7BYhirBPSykg6eCYdQwCA==
+admin.mbr.components@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/admin.mbr.components/-/admin.mbr.components-0.0.16.tgz#de67430b8779d10ce0263e4e394be0a3d2ae8518"
+  integrity sha512-0RqgI7ijb+bL7DJqkY86IxF1PjEbdwzKqH5eCzjGfYaZPOr5zdpV1MoD3+1+yOVReArCXxP4EqLafrgd8MZi/w==
   dependencies:
     js-base64 "^3.6.0"
 
@@ -8430,6 +8430,11 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+
+vee-validate@^3.4.5:
+  version "3.4.8"
+  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-3.4.8.tgz#4b4444620f86307b744a4d8f8f61aed918bfa4e8"
+  integrity sha512-IRwVoCpaJF0xmHjpOcF5+yEPrSGDb4sDRTExQfkX+4pefjGV5tzLIrURFfqSKVcVnd1xfHdrmdMoE9pEH2z3BQ==
 
 vendors@^1.0.0:
   version "1.0.4"
